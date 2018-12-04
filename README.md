@@ -17,6 +17,8 @@ This is an example project demonstrating how to authorize a Twitter application 
 and Tweepy using OAuthentication. The access tokens are retrieved upon authentication. The callback URL 
 is where the app is redirected after the user authenticates with Twitter through their browser.
 
+If you want to look into more documentation, see https://wiseodd.github.io/techblog/2015/08/29/twitter-auth-flask/ and http://docs.tweepy.org/en/3.7.0/auth_tutorial.html, as they both do a much better job of explaining this than I can.
+
 ### Requirements
 
 * Dependencies
@@ -32,7 +34,7 @@ You'll need to have Flask and Tweepy installed.  To get access to the API keys a
 
 ### How to run
 
-To run the program, just open up `server.py` with your favorite text editor and fill in the necessary keys at the top. Once that's done, just open up your terminal interface, `cd` to the project directory, and then run `python server.py`.
+To run the program, just open up `server.py` with your favorite text editor and fill in the necessary keys at the top. Once that's done, just open up your terminal interface, `cd` to the project directory, and then run `python server.py`. Open http://localhost:5000 in your browser when you're ready to start.
 
 ### Credits
 Find the original author on GitHub at https://github.com/whichlight.
